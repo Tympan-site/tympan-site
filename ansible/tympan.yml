@@ -1,0 +1,14 @@
+---
+- hosts: tympan-site
+  become: true
+  tasks:
+  roles:
+    - role: jaywink.letsencrypt
+      letsencrypt_email: bbearnes@gmail.com
+      letsencrypt_domain: tympan.org
+      letsencrypt_request_www: false
+      letsencrypt_pause_services:
+        - nginx
+    - jnv.debian-backports
+    - debian_default
+    - tympan_nginx

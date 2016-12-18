@@ -1,0 +1,21 @@
+---
+# talk to all hosts just so we can learn about them
+- hosts: all
+  tasks:
+     - group_by: key=os_{{ ansible_distribution }}
+
+# on debian hosts, issue upgrades
+- hosts: os_Debian
+  become: true
+  tasks:
+    - name: apt update
+      apt: update_cache=true cache_valid_time=300
+
+    - name: Install unattended-upgrades
+      apt: name=unattended-upgrades state=present
+
+    - name: Install apt-listchanges
+      apt:  name=apt-listchanges state=present
+
+    - name: Run a dist-upgrade
+      apt: upgrade=dist

@@ -1,0 +1,29 @@
+server {
+  listen 80;
+  listen [::]:80 default_server ipv6only=on;
+  return 301 https://$host$request_uri;
+}
+
+# HTTPS server
+server {
+  listen 443;
+  server_name tympan.org;
+
+  root /var/www/tympan;
+  index index.html index.htm;
+
+  ssl on;
+  ssl_certificate /etc/letsencrypt/live/tympan.org/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/tympan.org/privkey.pem;
+
+  ssl_session_timeout 5m;
+
+  ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+  ssl_prefer_server_ciphers on;
+  ssl_ciphers 'EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH';
+
+  location / {
+    disable_symlinks if_not_owner;
+    try_files $uri $uri/ =404;
+  }
+}

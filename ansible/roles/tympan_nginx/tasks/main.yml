@@ -1,0 +1,18 @@
+---
+
+- name: Install nginx
+  apt: name=nginx state=present
+
+- name: Create web root
+  file: path=/var/www/tympan state=directory mode=0755
+
+- name: Copy nginx configuration for tympan
+  template: src=default dest=/etc/nginx/sites-available/default
+  notify: restart nginx
+
+# - name: Clone p1k3 repository
+#   git:
+#     dest: /var/www/p1k3
+#     clone: yes
+#     update: yes
+#     repo: https://github.com/brennen/p1k3
