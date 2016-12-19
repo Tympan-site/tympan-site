@@ -13,3 +13,6 @@
 
 - name: Install git-annex
   apt: name=git-annex state=present
+
+- name: Install mosh
+  apt: name=mosh state=present
