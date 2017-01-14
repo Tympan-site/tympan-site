@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: tympan
+title: Tympan
 
 # Short description of your site
 description: A new platform for open source hearing assistive technology.
@@ -24,6 +24,7 @@ description: A new platform for open source hearing assistive technology.
 # List of links in the navigation bar
 navbar-links:
   About: "about"
+  "Who We Are": "who"
 # Resources:
 #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #   - Learn markdown: "http://www.markdowntutorial.com/"
@@ -45,7 +46,7 @@ author:
   name: Tympan
   email: "youremail@domain.com"
   facebook: yourname  # eg. daattali
-  github: yourname    # eg. daattali
+  github: Tympan-site    # eg. daattali
   twitter: yourname   # eg. daattali
   reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
@@ -65,7 +66,7 @@ footer-links-active:
   email: false
   twitter: false
   google-plus: false
-  github: false
+  github: true
   reddit: false
   linkedin: false
   xing: false
