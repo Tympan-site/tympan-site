@@ -22,7 +22,7 @@ in industry and academia.  The Tympan project is funded by a grant from the
 National Institute of Health in partnership with the National Institute on
 Deafness and other Communication Disorders. 
 
-<!-- TODO: If you or your group would like to be a part of the next
-generation of hearing aids, reach out to us via contact@tympan.org. -->
+If you or your group would like to be a part of the next generation of hearing
+aids, reach out to us via contact@tympan.org.
 
 
