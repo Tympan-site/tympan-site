@@ -1,2 +1,5 @@
 [tympan-site]
 tympan.org ansible_user=root
+
+[tyman-forum]
+forum.tympan.org
