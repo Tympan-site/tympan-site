@@ -57,4 +57,9 @@ new hearing aid algorithms.
 ![](/img/people/brennen_bearnes.jpg){:class="img-thumbnail" width="150px"}
 
 **Brennen Bearnes** is providing web, hosting, and community support for the Tympan project.  He has been a software development lead for [SparkFun](www.sparkfun.com) Electronics and a technical writer for [DigitalOcean](www.digitalocean.com).  He currently works on web infrastructure and tutorial content for [Adafruit](www.adafruit.com) Industries.
- 
+
+----
+
+![](/img/people/neil_murphy.jpg){:class="img-thumbnail" width="150px"}
+
+**Neil Murphy** provides infographics and web visuals for the Tympan project. His career paths have led him through audio engineering, music and sound design, graphic and web design, and [fine arts](www.neilmurphystudio.com). Many of his current fine art themes derive from neuroscience topics.
