@@ -56,7 +56,7 @@ new hearing aid algorithms.
 
 ![](/img/people/neil_murphy.jpg){:class="img-thumbnail" width="150px"}
 
-**Neil Murphy** provides infographics and web visuals for the Tympan project. His career paths have led him through audio engineering, music and sound design, graphic and web design, and [fine arts](www.neilmurphystudio.com). Many of his current fine art themes derive from neuroscience topics.
+**Neil Murphy** provides infographics and web visuals for the Tympan project. His career paths have led him through audio engineering, music and sound design, graphic and web design, and [fine arts](http://neilmurphystudio.com/). Many of his current fine art themes derive from neuroscience topics.
 
 ----
 
