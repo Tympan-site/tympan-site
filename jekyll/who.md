@@ -50,16 +50,16 @@ new hearing aid algorithms.
 
 ![](/img/people/joel_murphy.jpg){:class="img-thumbnail" width="150px"}
 
-**Joel Murphy** is heading the community building and commercialization teams for Tympan, leading the build of the official website, forum, and blog.  He has a lonstanding interest in creating sustainable Open Source Hardware projects. His background is in kinetic sculpture, and he taught Physical Computing at Parsons The New School For Design for 8 years between 2006 and 2014. He is the co-founder of two open-source hardware startups: [Pulse Sensor](www.pulsesensor.com) and [OpenBCI](www.openbci.com).
-
-----
-
-![](/img/people/brennen_bearnes.jpg){:class="img-thumbnail" width="150px"}
-
-**Brennen Bearnes** is providing web, hosting, and community support for the Tympan project.  He has been a software development lead for [SparkFun](www.sparkfun.com) Electronics and a technical writer for [DigitalOcean](www.digitalocean.com).  He currently works on web infrastructure and tutorial content for [Adafruit](www.adafruit.com) Industries.
+**Joel Murphy** is heading the community building and commercialization teams for Tympan, leading the build of the official website, forum, and blog.  He has a lonstanding interest in creating sustainable Open Source Hardware projects. His background is in kinetic sculpture, and he taught Physical Computing at Parsons The New School For Design for 8 years between 2006 and 2014. He is the co-founder of two open-source hardware startups: [Pulse Sensor](http://www.pulsesensor.com) and [OpenBCI](http://openbci.com).
 
 ----
 
 ![](/img/people/neil_murphy.jpg){:class="img-thumbnail" width="150px"}
 
 **Neil Murphy** provides infographics and web visuals for the Tympan project. His career paths have led him through audio engineering, music and sound design, graphic and web design, and [fine arts](www.neilmurphystudio.com). Many of his current fine art themes derive from neuroscience topics.
+
+----
+
+![](/img/people/brennen_bearnes.jpg){:class="img-thumbnail" width="150px"}
+
+**Brennen Bearnes** is providing web, hosting, and community support for the Tympan project.  He has been a software development lead for [SparkFun Electronics](https://www.sparkfun.com) and a technical writer for [DigitalOcean](https://www.digitalocean.com).  He currently works on web infrastructure and tutorial content for [Adafruit Industries](https://www.adafruit.com).

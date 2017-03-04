@@ -16,7 +16,7 @@ and engaging with our community forum and software/hardware repositories. Let’
 make hearing assistive technology better, together!
 
 Our [initial team](/who) is comprised of folks from the engineering firm
-Creare, and the Auditory Signal Processing Laboratory at Boystown National
+Creare, and the Auditory Signal Processing Laboratory at Boys Town National
 Research Hospital.   We are interested in partnering with more research groups
 in industry and academia.  The Tympan project is funded by a grant from the
 National Institute of Health in partnership with the National Institute on
