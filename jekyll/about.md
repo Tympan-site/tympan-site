@@ -25,7 +25,3 @@ Deafness and other Communication Disorders.
 If you or your group would like to be a part of the next generation of hearing
 aids, reach out to us via contact@tympan.org.
 
-
-##Overview of Phase I v1.0
-
-![](img/AAS_poster.pdf)  
