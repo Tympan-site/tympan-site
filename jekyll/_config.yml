@@ -46,10 +46,10 @@ avatar: "/img/tympan-logo-color.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Tympan
-  email: "youremail@domain.com"
+  email: "contact@tympan.org"
   facebook: yourname  # eg. daattali
   github: tympan    # eg. daattali
-  twitter: yourname   # eg. daattali
+  twitter: Tympanorg # eg. daattali
   reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   linkedin: yourname  # eg. daattali
@@ -65,8 +65,8 @@ author:
 footer-links-active:
   rss: true
   facebook: false
-  email: false
-  twitter: false
+  email: true
+  twitter: true
   google-plus: false
   github: true
   reddit: false
