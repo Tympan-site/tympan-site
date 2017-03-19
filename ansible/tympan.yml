@@ -6,7 +6,7 @@
     - role: jaywink.letsencrypt
       letsencrypt_email: bbearnes@gmail.com
       letsencrypt_domain: tympan.org
-      letsencrypt_request_www: false
+      letsencrypt_request_www: true
       letsencrypt_pause_services:
         - nginx
     - jnv.debian-backports
