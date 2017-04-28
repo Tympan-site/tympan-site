@@ -10,6 +10,8 @@ puts feed.url
 
 feed.entries.each do |entry|
 
+  puts(entry.url)
+
   # Grab a title out of the existing URL:
   m = /\/([a-z0-9\-]+?)\.html$/.match(entry.url)
   target_file = entry.published.strftime("%Y-%m-%d") << "-" << m[1] << ".html"
@@ -22,5 +24,6 @@ feed.entries.each do |entry|
     f.puts "---"
     f.puts "\n\n"
     f.puts entry.content
-  end  
+  end
+
 end
