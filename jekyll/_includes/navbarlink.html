@@ -4,8 +4,14 @@
 {% if before != after %}
   {% if before == "http" or before == "https" %}
     {% assign internal = false %}
-  {% endif %}  
+  {% endif %}
 {% endif %}
+
+{% for targetlink in site.link-targets %}
+  {% if targetlink[0] == link[0] %}
+    {% assign target = targetlink[1] %}
+  {% endif %}
+{% endfor %}
 
 {% if internal %}
   {% capture linkurl %}{{ site.baseurl }}/{{ include.link[1] }}{% endcapture %}
@@ -13,4 +19,4 @@
   {% capture linkurl %}{{ include.link[1] }}{% endcapture %}
 {% endif %}
 
-<a href="{{ linkurl }}">{{ include.link[0] }}</a>
+<a href="{{ linkurl }}" target="{{ target }}">{{ include.link[0] }}</a>
