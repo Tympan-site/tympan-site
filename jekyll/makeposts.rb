@@ -23,7 +23,7 @@ feed.entries.each do |entry|
   m = /\/([a-z0-9\-]+?)\.html$/.match(entry.url)
   target_file = entry.published.strftime("%Y-%m-%d") << "-" << m[1] << ".html"
 
-  File.open('_posts/' << target_file, 'w') do |f|  
+  File.open('_posts/' << target_file, 'w') do |f|
     f.puts "---"
     f.puts "layout: post"
     f.puts "title: " << entry.title
