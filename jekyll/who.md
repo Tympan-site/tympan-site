@@ -50,7 +50,7 @@ new hearing aid algorithms.
 
 ![](/img/people/joel_murphy.jpg){:class="img-thumbnail" width="150px"}
 
-**Joel Murphy** is heading the community building and commercialization teams for Tympan, leading the build of the official website, forum, and blog.  He has a lonstanding interest in creating sustainable Open Source Hardware projects. His background is in kinetic sculpture, and he taught Physical Computing at Parsons The New School For Design for 8 years between 2006 and 2014. He is the co-founder of two open-source hardware startups: [Pulse Sensor](http://www.pulsesensor.com) and [OpenBCI](http://openbci.com).
+**Joel Murphy** is heading the community building and commercialization teams for Tympan, leading the build of the official website, forum, and blog.  He has a longstanding interest in creating sustainable Open Source Hardware projects. His background is in kinetic sculpture, and he taught Physical Computing at Parsons The New School For Design for 8 years between 2006 and 2014. He is the co-founder of two open-source hardware startups: [Pulse Sensor](http://www.pulsesensor.com) and [OpenBCI](http://openbci.com).
 
 ----
 

@@ -168,11 +168,17 @@ img {
   border-radius: 0%;
   margin-left: -50%;
   display: inline-block;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 .navbar-custom .avatar-container  .avatar-img {
   width: 100%;
   border-radius: 0%;
   display: block;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
 }
 
 .navbar-custom.top-nav-short .avatar-container{
@@ -419,23 +425,23 @@ footer .theme-by {
 }
 .intro-header.big-img {
   background: no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
   margin-top: 51px; /* The small navbar is 50px tall + 1px border */
   margin-bottom: 35px;
 }
-.intro-header.big-img  .big-img-transition {
+.intro-header.big-img .big-img-transition {
   position: absolute;
   width: 100%;
   height: 100%;
   opacity: 0;
   background: no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
   -webkit-transition: opacity 1s linear;
   -moz-transition: opacity 1s linear;
   transition: opacity 1s linear;
@@ -501,7 +507,8 @@ footer .theme-by {
   }	
   .intro-header.big-img .page-heading,
   .intro-header.big-img .post-heading  {
-    padding: 150px 0;
+    /* padding: 150px 0; */
+    padding: 100px 0;
   }  
   .intro-header .page-heading h1 {
     font-size: 80px;

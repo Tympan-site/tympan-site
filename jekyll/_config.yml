@@ -23,10 +23,16 @@ description: A new platform for open source hearing assistive technology.
 
 # List of links in the navigation bar
 navbar-links:
+  Shop: "shop"
   Blog: "blog"
+  Software: "https://github.com/tympan"
   About: "about"
   "Who We Are": "who"
   "Forum": "https://forum.tympan.org/"
+
+link-targets:
+  "Forum": "_new"
+
 # Resources:
 #   - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #   - Learn markdown: "http://www.markdowntutorial.com/"
@@ -34,7 +40,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/tympan-logo-color.png"
+avatar: "/img/tympan-logo.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -46,10 +52,10 @@ avatar: "/img/tympan-logo-color.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Tympan
-  email: "youremail@domain.com"
+  email: "contact@tympan.org"
   facebook: yourname  # eg. daattali
   github: tympan    # eg. daattali
-  twitter: yourname   # eg. daattali
+  twitter: Tympanorg # eg. daattali
   reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
   linkedin: yourname  # eg. daattali
@@ -65,8 +71,8 @@ author:
 footer-links-active:
   rss: true
   facebook: false
-  email: false
-  twitter: false
+  email: true
+  twitter: true
   google-plus: false
   github: true
   reddit: false
@@ -95,7 +101,7 @@ url-pretty: "tympan.org"  # eg. "deanattali.com/beautiful-jekyll"
 #disqus: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-99256027-1"
 
 # Facebook App ID
 # fb_app_id: ""
