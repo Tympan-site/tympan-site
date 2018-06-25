@@ -23,10 +23,10 @@ description: A new platform for open source hearing assistive technology.
 
 # List of links in the navigation bar
 navbar-links:
+  About: "about"
   Shop: "https://shop.tympan.org/"
   Blog: "blog"
   Software: "https://github.com/tympan"
-  About: "about"
   "Who We Are": "who"
   "Forum": "https://forum.tympan.org/"
 
