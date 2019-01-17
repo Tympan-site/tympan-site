@@ -10,10 +10,10 @@ Hardware for the development of hearing assistive technology
 ------------------------------------------------------------
 {: .text-center}
 
-Our first hardware designs are in preproduction, and will be available for purchase Summer, 2017.
+Our hardware designs have been available for purchase since Summer,2017. 
 {: .text-center}
 
-**Anticipated retail price $250**
+**Retail price $250**
 {: .text-center}
 
 Tympan vA System Includes:
@@ -24,7 +24,7 @@ Tympan vA System Includes:
 
 ![](/img/revA_Hardware.png)
 
-[SIGN UP TO BE NOTIFIED OF OUR PRODUCT RELEASE DATE][signup]
+[SIGN UP TO BE NOTIFIED OF NEW PRODUCT RELEASE DATE][signup]
 {: .text-center}
 
 [signup]: https://goo.gl/forms/jTmFpdgOoNz3nJuB2
